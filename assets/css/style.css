@@ -140,6 +140,45 @@ ul {
   margin: 0;
 }
 
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:20px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 0 3px 14px rgba(0, 0, 0, 0.45);
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.float1{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:20px;
+	background-color:#4498ff;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 0 3px 14px rgba(0, 0, 0, 0.45);
+  z-index:100;
+}
+
+
+.my-float1{
+	margin-top:16px;
+}
+
 a {
   text-decoration: none;
   -webkit-transition: all 0.2s;
