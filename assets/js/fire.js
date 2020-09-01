@@ -49,7 +49,8 @@
     } 
 
     //Send Message to Firebase
-    let sendFirebase = (name, email, phone, company, note) => {
+       let sendFirebase = (name, email, phone, company, note) => {
+        if (name && email && phone && company && note) {
     let newFormMessage = formMessage.push();
     newFormMessage.set({
         name: name,
@@ -59,3 +60,4 @@
         note: note
     });
     }
+    }    
