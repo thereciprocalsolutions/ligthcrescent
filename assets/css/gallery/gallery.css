@@ -1,0 +1,30 @@
+
+.boxi{
+    margin:15px 0px;
+    display: none;
+}
+.showe {
+    transition:0.5s;
+    display: block;
+}
+.btnn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+.btnn:hover {
+    background-color: #ddd;
+}
+.btnn.activee {
+    background-color: #666;
+    color: white;
+}
+
+#BtnContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
