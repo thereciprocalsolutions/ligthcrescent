@@ -1832,7 +1832,7 @@ img {
 
 @media (max-width: 991px) {
   .header-style-1 .navigation, .header-style-2 .navigation, .header-style-3 .navigation {
-    background: #131e4a;
+    background: #ff5714;
     padding: 15px 0;
   }
 }
@@ -2908,7 +2908,7 @@ img {
 }
 
 .header-style-1 .sticky-header, .header-style-2 .sticky-header, .header-style-3 .sticky-header {
-  background: #131e4a;
+  background: #ff5714;
 }
 
 .header-style-2 .sticky-header, .header-style-3 .sticky-header {
